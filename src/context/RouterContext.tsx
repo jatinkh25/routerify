@@ -1,5 +1,5 @@
 import React, { useContext, useLayoutEffect, useState } from 'react'
-import { createBrowserHistory, Location, State } from 'history'
+import { createBrowserHistory, Location } from 'history'
 import { locationToRoute } from '../utils/functions'
 import { RoutesType } from '../routes'
 import { NotFound } from '../404'
