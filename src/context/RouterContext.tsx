@@ -18,7 +18,7 @@ const RouterProvider = ({ routeList, children }: Props) => {
   const [routes] = useState(Object.keys(routeList).map((key) => routeList[key].path))
   const [route, setRoute] = useState(locationToRoute(history))
 
-  const handleRouteChange = (location: { location: Location<State> }) => {
+  const handleRouteChange = (location: { location: Location }) => {
     const route = locationToRoute(location)
     setRoute(route)
   }

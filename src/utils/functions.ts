@@ -1,8 +1,7 @@
-import { Location, State } from 'history'
-// import qs from 'querystringify'
+import { Location } from 'history'
 
 type Props = {
-  location: Location<State>
+  location: Location
 }
 
 export function locationToRoute({ location }: Props) {
